@@ -263,7 +263,7 @@ Before opening a pull request, ensure your branch satisfies the quality standard
 - [ ] **Typecheck**: `pnpm exec tsc -b` (or `pnpm typecheck`) completes with zero errors.
 - [ ] **Lint & Design Tokens**: `pnpm lint` passes cleanly. Use theme tokens from `src/theme/tokens.css` (never hardcode arbitrary hex/RGB colors).
 - [ ] **Accessibility**: Maintain keyboard navigation, visible focus outlines, and appropriate ARIA attributes for interactive elements ([Accessibility Rules](./.rules/accessibility.md)).
-- [ ] **Internationalization**: If adding user-visible strings, declare translation keys in `src/i18n/locales/` instead of hardcoding text in JSX.
+- [ ] **Internationalization**: If adding user-visible strings, declare translation keys in `packages/web-ui/src/i18n/locales/` instead of hardcoding text in JSX.
 - [ ] **Issue Reference**: Include `Closes #<issue-number>` or `Fixes #<issue-number>` in your PR description.
 
 ### Testing a Pull Request Build
